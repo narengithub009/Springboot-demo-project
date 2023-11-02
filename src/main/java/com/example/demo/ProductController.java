@@ -8,4 +8,7 @@ public class ProductController {
 	public void getBranchDetails() {
 		System.out.println("Hello................");
 	}
+	public void getBranch2Details() {
+		System.out.println("Hello................");
+	}
 }
