@@ -9,5 +9,9 @@ public class SpringbootDemoProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootDemoProjectApplication.class, args);
 	}
+	public void getMessage(){
+	System.out.println("Hello");
+	}
+	
 
 }
