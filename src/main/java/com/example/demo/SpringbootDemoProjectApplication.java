@@ -10,7 +10,7 @@ public class SpringbootDemoProjectApplication {
 		SpringApplication.run(SpringbootDemoProjectApplication.class, args);
 	}
 	public void getMessage(){
-	System.out.println("Hello");
+	System.out.println("Hello.........");
 	}
 	
 
