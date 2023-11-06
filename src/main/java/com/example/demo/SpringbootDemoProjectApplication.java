@@ -15,6 +15,4 @@ public class SpringbootDemoProjectApplication {
 	public String getMessage(){
 	return "Hello welcome.......";
 	}
-	
-
 }
