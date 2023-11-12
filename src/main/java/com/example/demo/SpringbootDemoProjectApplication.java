@@ -15,11 +15,13 @@ public class SpringbootDemoProjectApplication {
 	}
 	@GetMapping("/hello")
 	public String getMessage(){
+		
 	return "Hello welcome.......";
 	}
 	
 	@GetMapping("/orders")
 	public String getOrders() {
+		System.out.println("Get order details service ivoked");
 		return "Getting Order Details.....";
 	}
 }
