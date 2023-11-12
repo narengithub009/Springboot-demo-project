@@ -15,7 +15,7 @@ public class SpringbootDemoProjectApplication {
 	}
 	@GetMapping("/hello")
 	public String getMessage(){
-		
+		System.out.println("sample get message method");
 	return "Hello welcome.......";
 	}
 	
