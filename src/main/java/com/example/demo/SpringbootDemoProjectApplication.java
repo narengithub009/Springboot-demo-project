@@ -17,4 +17,9 @@ public class SpringbootDemoProjectApplication {
 	public String getMessage(){
 	return "Hello welcome.......";
 	}
+	
+	@GetMapping("/orders")
+	public String getOrders() {
+		return "Getting Order Details.....";
+	}
 }
